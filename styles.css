@@ -27,7 +27,7 @@ body {
     font-weight: 600;
     font-size: 25px;
     color: #1883ba;
-    background-color: #ffffff;
+    background-color: #ffffff8c;
     border-radius: 6px;
     border: 1.5px solid #1883ba;
 }
@@ -65,9 +65,19 @@ body {
 
 #image {
     height: 500px;
-    border: #1884ba33 5px solid;
+    width: 850px;
+    border: #42545e33 5px solid;
     text-align: justify;
     font-family: 'Helvetica', 'Arial', sans-serif;
     color: #1884ba9f;
     margin-bottom: 0%;
+    opacity: 0.8;
+}
+
+.imageCorrect {
+    border: #1884babe 5px solid !important;
+}
+
+.imageError {
+    border: #bb1b1bc0 5px solid !important;
 }

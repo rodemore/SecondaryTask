@@ -16,7 +16,6 @@ function updateClock(n) {
         startGame();
     } else {
         n -= 1;
-        console.log(`updateClock(${n})`)
         setTimeout(`updateClock(${n})`, 1000);
     }
 
